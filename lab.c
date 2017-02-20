@@ -55,7 +55,12 @@ if(sr<121 && 31<=sr)
 {  
 den=sum+sum/100*3;
 printf("Vasha summa sostavlyaet %d\n\n\n", den);                       
-}   	
+}
+if(sr<241 && 121<=sr)
+{  
+den=sum+sum/100*8;
+printf("Vasha summa sostavlyaet %d\n\n\n", den);                       
+}     	
 }
 return 0;
 }
