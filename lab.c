@@ -16,6 +16,9 @@ if(sum<10000)
 printf("Summa vklada mala \n\n\n");
 goto next; 
 }
-
+if(sum<100000)
+{
+		
+}
 return 0;
 }
