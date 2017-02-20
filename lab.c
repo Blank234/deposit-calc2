@@ -65,7 +65,11 @@ if(sr<366 && 241<=sr)
 {  
 den=sum+sum/100*15;
 printf("Vasha summa sostavlyaet %d\n\n\n", den);                       
-}     	
+}
+if(sr>365)
+{  
+printf("Srok bolshe dogovora %d\n\n\n", den);                       
+}      	
 }
 return 0;
 }
