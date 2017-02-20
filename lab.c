@@ -46,7 +46,11 @@ printf("Srok bolshe dogovora %d\n\n\n", den);
 }
 if(sum>100000)
 {
-	
+if(sr<31 && 0<=sr)
+{  
+den=sum-sum/100*10;
+printf("Vasha summa sostavlyaet %d\n\n\n", den);                       
+} 	
 }
 return 0;
 }
