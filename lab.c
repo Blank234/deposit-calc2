@@ -10,6 +10,10 @@ printf("Vvedite summu vklada \n\n\n");
 scanf("%d", &sum); 
 printf("Vvedite srok \n\n\n");
 scanf("%d", &sr); 
+if(sum<10000)
+{
+printf("Summa vklada mala \n\n\n");
+}
 
 return 0;
 }
