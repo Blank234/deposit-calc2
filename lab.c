@@ -44,5 +44,9 @@ if(sr>365)
 printf("Srok bolshe dogovora %d\n\n\n", den);                       
 }    		
 }
+if(sum>100000)
+{
+	
+}
 return 0;
 }
